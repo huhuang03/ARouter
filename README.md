@@ -531,6 +531,11 @@ annotation，**Only the routing information of the same group can be registered 
         ...
     }
     ```
+    
+    
+#### Note:
+1. DegradeService is only work when call routing with no callback, if has callback, DegradeService.onLost will not call
+2. A app can only have one PretreatmentService.
 
 #### VII. Communication
 
